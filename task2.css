@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(189, 244, 244);
+
+}
+
+.mainDiv{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    align-content: space-around;
+    border-radius: 40px;
+    background-color: rgb(246, 239, 168);
+    width: 400px;
+    height: 500px;
+    box-shadow:  10px 10px 10px lightblue;
+    justify-content: center;
+}
+span{
+    
+}
+img{
+    width: 80px;
+    height: 80px;
+   
+}
+samp{
+    align-content: flex-start;
+}
+.mainDiv >div{
+            border-bottom: 2px solid rgb(208, 198, 198);
+}
